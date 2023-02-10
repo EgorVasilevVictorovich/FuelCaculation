@@ -1,16 +1,26 @@
 package com.example.myapplication;
 
 public class Algorithm {
-    private static final long earth = (long) 9.80665;
-    private static final long mars = (long) 3.721;
+    private static final int earth = (int) 980665;
+    private static final int mars = (int) 3721;
 
     public Algorithm (){
 
 
 
     }
+    public static float calculation1(){
+        return mars;
+
+
+    }
+    public static float calculation2(){
+        return earth;
+
+
+    }
     public static float calculation(){
-    return ((mars*100)/earth);
+    return (((calculation1())*100)/(calculation2())*100);
 
 
     }
