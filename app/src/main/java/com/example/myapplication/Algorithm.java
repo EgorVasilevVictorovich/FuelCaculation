@@ -2,7 +2,7 @@ package com.example.myapplication;
 
 public class Algorithm {
     private static final int earth = (int) 980665;
-    private static final int mars = (int) 3721;
+    private static final int mars = (int)  372100;
 
     public Algorithm (){
 
@@ -20,7 +20,7 @@ public class Algorithm {
 
     }
     public static float calculation(){
-    return (((calculation1())*100)/(calculation2())*100);
+    return (calculation1/calculation2)*100;
 
 
     }
