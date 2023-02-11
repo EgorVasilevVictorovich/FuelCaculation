@@ -1,8 +1,8 @@
 package com.example.myapplication;
 
 public class Algorithm {
-    private static final int earth = (int) 980665;
-    private static final int mars = (int)  372100;
+    private static final float earth = (float) 9.8;
+    private static final float mars =  (float) 3.7;
 
     public Algorithm (){
 
