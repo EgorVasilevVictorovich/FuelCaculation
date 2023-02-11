@@ -20,7 +20,7 @@ public class Algorithm {
 
     }
     public static float calculation(){
-    return (calculation1/calculation2)*100;
+    return (calculation1()/calculation2())*100;
 
 
     }
