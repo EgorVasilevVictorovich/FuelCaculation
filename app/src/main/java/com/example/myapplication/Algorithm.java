@@ -9,18 +9,8 @@ public class Algorithm {
 
 
     }
-    public static float calculation1(){
-        return mars;
-
-
-    }
-    public static float calculation2(){
-        return earth;
-
-
-    }
     public static float calculation(){
-    return (calculation1()/calculation2())*100;
+    return (mars/earth)*100;
 
 
     }
